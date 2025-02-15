@@ -32,8 +32,8 @@ protected void doPost(HttpServletRequest request, HttpServletResponse response) 
 	health.setWeight(Double.parseDouble(weight));
 	
 	//健康診断を実行し結果を設定
-	HealthCheckLogic healthCheckLogic = new healthCheckLogic();
-	HealthCheckLogic.execute(health);
+	HealthCheckLogic healthCheckLogic = new HealthCheckLogic();
+	healthCheckLogic.execute(health);
 	
 	//リクエストスコープに保存
 	request.setAttribute("health", health);
