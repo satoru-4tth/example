@@ -9,6 +9,6 @@
 <title>700円のいちご</title>
 </head>
 <body>
-<p><%= fruit.getName() %>の値段は<%= fruit.getPrice() %>円です。</p>
+<p><%= fruit.getName() %>の値段は<%= fruit.getPrice() %>円ですよ。</p>
 </body>
 </html>
