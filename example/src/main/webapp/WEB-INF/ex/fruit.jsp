@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@ page import="ex.Fruit" %>
-<% Fruit fruit = (Fruit)session.getAttribute("fruit"); %>
+<% Fruit fruit = (Fruit)application.getAttribute("fruit"); %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,7 +10,7 @@
 </head>
 <body>
 
-<p><%= fruit.getName() %>の値段は<%= fruit.getPrice() %>円ですよ。</p>
+<p><%= fruit.getName() %>の値段は<%= fruit.getPrice() %>円ですわよ。</p>
 
 
 </body>
