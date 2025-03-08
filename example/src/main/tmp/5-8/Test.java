@@ -12,7 +12,7 @@ public class Test {
 		Test t = new Test();
 		t.method("E");
 		System.out.println(t.text);
-		tmethod();
+		t.method();
 		System.out.println(text);
 		System.out.println(t.text);
 	}
