@@ -1,0 +1,4 @@
+class Sample1 { Sample1() {} }
+class Sample2 {}
+class Sample3 { void Sample3(int i) {} }
+class Sample4 { Sample4(String s, int i) {} }
