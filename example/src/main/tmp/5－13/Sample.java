@@ -9,8 +9,9 @@ public class Sample {
 		System.out.print(x);
 	}
 	public Sample(int x, int y) {
-		System.out,println(x + "" + y);
+		System.out.println(x + "" + y);
 	}
-    public static void main {
+    public static void main(String[] args) {
+    	new Sample(3);
     }
 }
