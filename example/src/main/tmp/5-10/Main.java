@@ -1,4 +1,5 @@
-public class Employee {
+ class Employee {
+	 // public消した
 	int id;
 	String name;
 	public Employee(int id) {
