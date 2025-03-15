@@ -9,3 +9,10 @@ public class Main {
 		}
 	}
 }
+
+
+// A. ClassCastException e
+// B. NumberFormatException e
+// C. NullPointException ex
+// D. RuntimeException ex
+// E. ArithmeticException ex
