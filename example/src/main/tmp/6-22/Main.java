@@ -1,0 +1,12 @@
+inport java.util.HashMap;
+inport java.util.Map;
+public class Main {
+	public static void main(String[] args) {
+		Map<String, String> map = new HashMap<>();
+		map.add("UK", "United kingdom");
+		map.add("DE", "Germany");
+		map.add("FR", "France");
+		System.out.println(map);
+	}
+
+}
