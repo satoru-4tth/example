@@ -14,8 +14,8 @@ public class Main {
 	
 	/*
 	A. } catch (Exception e) {}
-	A. } catch (NumberFormatException | Exception e) {}
-	A. } catch (NumberFormatException e | Exception e) {}
-	A. } catch (RuntimeException e | ClassNotFoundException e) {}
-	A. } catch (NumberFormatException | ClassNotFoundException e) {}
+	B. } catch (NumberFormatException | Exception e) {}
+	C. } catch (NumberFormatException e | Exception e) {}
+	D. } catch (RuntimeException e | ClassNotFoundException e) {}
+	E. } catch (NumberFormatException | ClassNotFoundException e) {}
 	*/
