@@ -11,7 +11,7 @@ public class Main {
 			System.out.print(" finally");
 		}
 	}
-	public static void disp(int[] x); {
+	public static void disp(int[] x) {
 	  for (int i = 0; i <= 4 ; i++) {
 		  System.out.println(x[i]);
 	  }
