@@ -21,3 +21,5 @@ class Main {
 		System.out.println(obj.x + ":" + obj.y);
 	}
 }
+
+// 確認
