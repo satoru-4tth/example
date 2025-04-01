@@ -20,4 +20,4 @@ public class FormServlet extends HttpServlet {
 		String gender = request.getParameter("gender");
 	}
 }
-// gitのアカウントどれだ
+// gitのアカウントどれだ?
