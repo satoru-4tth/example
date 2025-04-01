@@ -15,3 +15,5 @@ public class Sample {
     	new Sample(3);
     }
 }
+
+
