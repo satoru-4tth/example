@@ -10,7 +10,7 @@ public record Data(String value) {
 public class Sample {
 	public static void main(String[] args) {
 		Data data = new Data(null);
-		System.out.println(sata.value());
+		System.out.println(data.value());
 	}
 
 }
