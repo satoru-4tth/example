@@ -15,3 +15,4 @@ public class Main {
 		Sample s = new Sample();
 	}
 }
+
