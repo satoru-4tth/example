@@ -16,7 +16,7 @@ public class B {
 		this.num = num;
 	}
 	public boolean equals(Object obj) {
-		B a = (B) obj;
+		B b = (B) obj;
 		return this.num == b.num;
 	}
 }
@@ -24,12 +24,8 @@ public class B {
 
 public class Main {
 	public static void main(String[] args) {
-		String str = null;
-		if (str.equals("")) {
-			System.out.println("blank");
-		} else {
-			System.out.println("null");
-		}
+		A a = new A(10);
+		B b = new B(10);
+		System.out.println(a.equals(b));
 	}
-
 }
