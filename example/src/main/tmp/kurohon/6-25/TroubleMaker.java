@@ -1,9 +1,19 @@
-public class TroubleMaker implements AutoCloseable {
+public class TroubleResource implements AutoCloseable {
 	@Override
 	public void close() throws Exception {
 		throw new RuntimeException("trouble");
 	}
 }
+
+
+
+
+
+
+
+
+
+
 
 
 public class TroubleMaker {
