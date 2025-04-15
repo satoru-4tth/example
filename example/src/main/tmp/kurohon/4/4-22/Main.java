@@ -1,5 +1,5 @@
 public class Sample {
-	static int = num;
+	static int num;
 	{
 	num = 10;
 	}
