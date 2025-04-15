@@ -9,7 +9,7 @@ public class TroubleMaker implements AutoCloseable {
 public class TroubleMaker {
 	public static void main(String[] args) {
 		try (TroubleResource a = new TroubleResource()) {
-			throw new Execption();
+			throw new Exception();
 		} catch (RuntimeException e) {
 			System.out.println("A");
 		} catch (Exception e) {
