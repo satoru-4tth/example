@@ -8,3 +8,4 @@ public class Main {
 		msg.replaceAll("hoge", "hello");
 	}
 }
+ 
